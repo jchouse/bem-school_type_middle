@@ -6,7 +6,7 @@
 exports.index = function(req, res){
 	res.render('index', 
 		{ 
-			title: 'Express',
+			title: 'BEM средняя школа',
 			menu: [
 				{
 					url: '#home',

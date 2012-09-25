@@ -1,5 +1,5 @@
 div.content
 	each item in content
 		article
-			h1(id='#{item.id}')= item.chapter
-			p= item.content
+			h1.content__header(id='#{item.id}')= item.chapter
+			p.content__text= item.content
